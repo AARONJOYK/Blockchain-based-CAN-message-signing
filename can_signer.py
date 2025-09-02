@@ -69,5 +69,5 @@ with open(output_fake, "w", newline='') as fake_out:
 
 print(f"Signed {len(real_lines)} real and {len(fake_lines)} fake entries.")
 print("Outputs:")
-print(f"  ✅ {output_real}")
-print(f"  ❌ {output_fake}")
+print(f"   {output_real}")
+print(f"   {output_fake}")
