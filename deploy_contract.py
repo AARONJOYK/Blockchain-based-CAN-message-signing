@@ -55,7 +55,7 @@ receipt = web3.eth.wait_for_transaction_receipt(tx_hash)
 
 # Save details
 contract_address = receipt.contractAddress
-print("✅ Contract deployed at:", contract_address)
+print(" Contract deployed at:", contract_address)
 
 with open("ECUVerification_abi.json", "w") as f:
     json.dump(abi, f)
